@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>freechat</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+        <div class="container">
+            <h1 class="label"><i>free</i>
+                <u>chat</u>
+            </h1>
+        <form class="login_form" method="post" action="calender.html" name="form" onsubmit="return validated()">
+            <div class="font"> Email or Password</div>
+            <input autocomplete="off" placeholder="Enter an Email or Phone" type="text" value="" name="email">
+            <div id="email_error" style="border-radius:50px;">
+                Please add an Email or Password
+            </div>
+            <div class="font font2">Password</div>
+            <input type="password" placeholder="Enter a password" value="" name="password">
+            <div id="pass_error" style="border-radius:50px;">
+                Please Fill up your Password
+            </div>
+            <button type="submit">Next</button>
+
+        </form>
+
+    </div>
+    <script src="validate.js">
+    </script>
+</body>
+
+</html>

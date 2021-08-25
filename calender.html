@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="login_form" method="post" action="gender.html" name="form" onsubmit="return validated()">
+        <h1 style="color: whitesmoke;
+        text-align: center;">what is your birthday</h1>
+        <br>
+        <h4 style="color: dimgrey;">Choose your date of birth. You can always make this private later.</h4>
+        <h2>
+    <div class="font" style="color: aliceblue;"> Enter Your Birthday informations</div>
+</h2>
+<br>
+<br>
+            <input autocomplete="off" type="date" value="" name="date" >
+            <div id="date_error" style="border-radius:50px;
+            color: aliceblue;">
+                You are  so younger to use this website.
+            </div>
+            <button>next</button>
+    </form>
+    <script src="date.js"></script>
+</body>
+</html>
